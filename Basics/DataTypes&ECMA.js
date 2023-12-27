@@ -34,9 +34,9 @@ Object =>
 */
 let age = 12; // Number
 let price = 999570; // begInt
-let name = "bilal" //String
-let isLoggedIn = false //boolean
-let empty = null //by the name implies it
-let notSure = undefined // by the name it implies
+let name = "bilal"; //String
+let isLoggedIn = false; //boolean
+let empty = null; //by the name implies it
+let notSure = undefined; // by the name it implies
 
-console.log(name)
+console.log(age)

@@ -23,5 +23,6 @@ In another way |Account; | if we write, only can declared by  except const then 
 console.log({IdNumber,AccountId,AccounterCity,AccountantPlace})
 // console.table([IdNumber,AccountId,AccounterCity,AccountantPlace])
 // console.log(Account)
-
+let name = "bilel"
+console.log(name)
 
