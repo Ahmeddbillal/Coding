@@ -38,5 +38,10 @@ let name = "bilal"; //String
 let isLoggedIn = false; //boolean
 let empty = null; //by the name implies it
 let notSure = undefined; // by the name it implies
-
-console.log(age)
+console.log(typeof age)
+console.log(typeof price)
+console.log(typeof isLoggedIn)
+console.log(typeof empty)
+console.log(typeof notSure)
+console.log(typeof name)
+console.log("This is a text")
