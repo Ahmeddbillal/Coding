@@ -18,7 +18,7 @@ console.log(`From this index ${-4} lay in a sentence ${sentence.at(-4)} Characte
 */ 
 // string charAt() assign a integer value then a given index letter is in you terminal.
 // let alphabet = "Mesrable";
-// console.log(`The character of ${6} is in index of ${alphabet.charAt(6)}`)
+// console.log(`The index of ${6} is the character ${alphabet.charAt(6)}`)
 
 // Its not a senseble method of charCodeAt(),Its returns a value between 0 & 65535.
 // let probable = "happen";
@@ -59,5 +59,60 @@ console.log(`From this index ${-4} lay in a sentence ${sentence.at(-4)} Characte
 //  console.log(paragraph.match("quick"))
 
 //matchAll() string 
-let machingData = "The quick brown fox jamps the lazy dog!"
-console.log(machingData.matchAll("The quick brown fox jamps the lazy dog!"))
+// let machingData = "The quick brown fox jamps the lazy dog!"
+// console.log(machingData.matchAll("The quick brown fox jamps the lazy dog!"))
+
+//padStart & padEnd both used to take controle of unkown or undifiend words. I use "Word" becouse we descusing Strings.
+// let code1 = "use padEnd";
+// console.log(code1.padEnd(12, "*"))
+// let code2 = "use padStart";
+// console.log(code2.padStart(14, "*"))
+
+// repeat() String is using for repeating thing alot of time.
+// let Sibling = " Wow!";
+// console.log(`Whenever I saw the Hidden Truth, there is one word is out from my mouth ${Sibling.repeat(3)}`)
+
+//replaceAll() & replace() String methods uses for same purpose repeat a given sentence and word.
+// let changeBig = "What is in you're mind?"
+// console.log(changeBig.replaceAll(changeBig ,"What's in you're Heart?"))
+// let changeSmall = "I am Happy"
+// console.log(changeSmall.replace("Happy"," Glade"))
+ 
+//serach() string is not get!.
+
+//slice() String is originally slice text by index numbers, also slice form back with negative numbers,index in slice start at 1.
+// let paragraph = "The Quick Brown Fox Jumps Over the Lazy Dog!";
+// console.log(paragraph.length)
+// piece = paragraph.slice(-3)
+// console.log(piece)
+
+//small() String This features is no longer used in a browser.
+
+//split() String use for take a desired word from the text, by index it treats value as array.
+// its demand where you split your paragraph. ex from space mean every word have one gap space 
+// from this behalf your paragraph is split alos by null you can split your paragraph
+// but that retruns a alphabet, because null gave that sense that you want to split by alphabets.
+// let paragraph = "The quick brown fox jumps over the lazy dog!"
+// const anotherP = paragraph.split("t");
+// console.log(anotherP[5])
+// substring() String is used to target values from start to end.
+// let aToz = "We Wish you live hard life."
+//  console.log(aToz.substring(0,7))
+
+// localeLowerCase() String its just confusing it same as toupperCase or toLowerCase
+// let phrase = "Phrase Is Not Get Easily"
+//  let word = phrase.toLocaleUpperCase()
+// console.log(`TR-US: ${phrase.toLocaleLowerCase()}`)
+
+// valueOf String
+// let any = new String("Fundemantal")
+// console.log(any.valueOf())
+
+// trim() String only trims Extra Spaces. 
+// let Spaces = "   Welcom to our home, my pleasure!";
+// console.log(Spaces)
+// console.log(Spaces.trimStart())
+
+
+
+
